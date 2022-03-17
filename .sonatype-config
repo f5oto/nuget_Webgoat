@@ -1,0 +1,7 @@
+---
+    iq:
+        # public ID for an existing app in IQ Server, usually the repo name
+        PublicApplication: nuget-WebGoat
+        # possible stages [develop, build, stage-release, release, operate]
+        Stage: develop
+        Server: http://localhost:8070
